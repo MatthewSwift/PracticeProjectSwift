@@ -1,6 +1,8 @@
 PracticeProject
 ===============
 
+My description...
+
 Dependencies
 ------------
 
