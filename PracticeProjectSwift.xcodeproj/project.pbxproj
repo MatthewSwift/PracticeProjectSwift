@@ -21,6 +21,9 @@
 		8DD91D4615E66F6300891719 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD91D2415E66F6200891719 /* Foundation.framework */; };
 		8DD91D4E15E66F6300891719 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DD91D4C15E66F6300891719 /* InfoPlist.strings */; };
 		8DD91D5115E66F6300891719 /* PracticeProjectSwiftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD91D5015E66F6300891719 /* PracticeProjectSwiftTests.m */; };
+		8DD91D5B15E670BE00891719 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8DD91D5A15E670BE00891719 /* README.md */; };
+		8DD91D5D15E6741700891719 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8DD91D5C15E6741700891719 /* .gitignore */; };
+		8DD91D5F15E6749E00891719 /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 8DD91D5E15E6749E00891719 /* .gitattributes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +41,25 @@
 		8DD91D2215E66F6200891719 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8DD91D2415E66F6200891719 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8DD91D2615E66F6200891719 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8DD91D2A15E66F6200891719 /* PracticeProjectSwift-Info.plist */ = {isa = PBXFileReference; path = "PracticeProjectSwift-Info.plist"; sourceTree = "<group>"; };
+		8DD91D2A15E66F6200891719 /* PracticeProjectSwift-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PracticeProjectSwift-Info.plist"; sourceTree = "<group>"; };
 		8DD91D2C15E66F6300891719 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8DD91D2E15E66F6300891719 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8DD91D3015E66F6300891719 /* PracticeProjectSwift-Prefix.pch */ = {isa = PBXFileReference; path = "PracticeProjectSwift-Prefix.pch"; sourceTree = "<group>"; };
-		8DD91D3115E66F6300891719 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		8DD91D3015E66F6300891719 /* PracticeProjectSwift-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PracticeProjectSwift-Prefix.pch"; sourceTree = "<group>"; };
+		8DD91D3115E66F6300891719 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8DD91D3215E66F6300891719 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8DD91D3515E66F6300891719 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		8DD91D3815E66F6300891719 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		8DD91D3A15E66F6300891719 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		8DD91D3A15E66F6300891719 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8DD91D3B15E66F6300891719 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8DD91D4215E66F6300891719 /* PracticeProjectSwiftTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeProjectSwiftTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD91D4315E66F6300891719 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		8DD91D4B15E66F6300891719 /* PracticeProjectSwiftTests-Info.plist */ = {isa = PBXFileReference; path = "PracticeProjectSwiftTests-Info.plist"; sourceTree = "<group>"; };
+		8DD91D4B15E66F6300891719 /* PracticeProjectSwiftTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PracticeProjectSwiftTests-Info.plist"; sourceTree = "<group>"; };
 		8DD91D4D15E66F6300891719 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8DD91D4F15E66F6300891719 /* PracticeProjectSwiftTests.h */ = {isa = PBXFileReference; path = PracticeProjectSwiftTests.h; sourceTree = "<group>"; };
+		8DD91D4F15E66F6300891719 /* PracticeProjectSwiftTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PracticeProjectSwiftTests.h; sourceTree = "<group>"; };
 		8DD91D5015E66F6300891719 /* PracticeProjectSwiftTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeProjectSwiftTests.m; sourceTree = "<group>"; };
+		8DD91D5A15E670BE00891719 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		8DD91D5C15E6741700891719 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		8DD91D5E15E6749E00891719 /* .gitattributes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 		8DD91D1315E66F6200891719 = {
 			isa = PBXGroup;
 			children = (
+				8DD91D5A15E670BE00891719 /* README.md */,
+				8DD91D5C15E6741700891719 /* .gitignore */,
+				8DD91D5E15E6749E00891719 /* .gitattributes */,
 				8DD91D2815E66F6200891719 /* PracticeProjectSwift */,
 				8DD91D4915E66F6300891719 /* PracticeProjectSwiftTests */,
 				8DD91D2115E66F6200891719 /* Frameworks */,
@@ -227,6 +236,9 @@
 				8DD91D2D15E66F6300891719 /* InfoPlist.strings in Resources */,
 				8DD91D3615E66F6300891719 /* MainStoryboard_iPhone.storyboard in Resources */,
 				8DD91D3915E66F6300891719 /* MainStoryboard_iPad.storyboard in Resources */,
+				8DD91D5B15E670BE00891719 /* README.md in Resources */,
+				8DD91D5D15E6741700891719 /* .gitignore in Resources */,
+				8DD91D5F15E6749E00891719 /* .gitattributes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +387,7 @@
 				GCC_PREFIX_HEADER = "PracticeProjectSwift/PracticeProjectSwift-Prefix.pch";
 				INFOPLIST_FILE = "PracticeProjectSwift/PracticeProjectSwift-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -386,6 +399,7 @@
 				GCC_PREFIX_HEADER = "PracticeProjectSwift/PracticeProjectSwift-Prefix.pch";
 				INFOPLIST_FILE = "PracticeProjectSwift/PracticeProjectSwift-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
